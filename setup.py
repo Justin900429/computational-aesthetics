@@ -7,7 +7,7 @@ setuptools.setup(
     name="computational aesthetics",
     version="0.0.1",
     author="Justin Ruan",
-    author_email="justin900420@gmail.com",
+    author_email="justin900429@gmail.com",
     description="Python package for making computational aesthetics features",
     long_description=long_description,
     long_description_content_type="text/markdown",
