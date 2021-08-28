@@ -1,0 +1,6 @@
+numpy
+opencv_python
+PyWavelets
+matplotlib
+scikit_learn
+scikit-image==0.18.2
