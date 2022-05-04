@@ -1,7 +1,7 @@
 # README
 
 ## Introduction
-This repo is to extract the computational aesthetic features introduced from the paper - ["The Pictures we Like are our Image: Continuous Mapping of Favorite Pictures into Self-Assessed and Attributed Personality Traits"](https://ieeexplore.ieee.org/document/7378902). Some of the features had been removed and readapted. See the table below.
+This repo is to extract the computational aesthetic features introduced from the paper - ["The Pictures we Like are our Image: Continuous Mapping of Favorite Pictures into Self-Assessed and Attributed Personality Traits"](https://ieeexplore.ieee.org/document/7378902). Some of the features had been removed and readapted. See the below table.
 
 ## Feature Synopis
 | Category            | Name                                                                                                                      | dimension                                       |
@@ -10,13 +10,13 @@ This repo is to extract the computational aesthetic features introduced from the
 | Composition         | Edge pixels <br/> Level of detial <br/> Average region size <br/> Low depth of ﬁeld (DOF) <br/> Rule of thirds Image size | 1 <br/> 1 <br/> 1 <br/> 3 <br/> 2 <br/> 1 <br/> |
 | Textural Properties | Gray distribution entropy <br/> Wavelet based textures <br/> Tamura <br/> GLCM - features                                 | 1 <br/> 12 <br/> 3 <br/> 3                      |
 
-> The description column is omitted. To see what each feature does, please refer to the Paper. Additionally, there are some changes being made.
+> The description column is omitted. To see what each feature does, please refer to the paper. Additionally, there are some changes being made.
 > 1. The **Faces features** was removed.
 > 2. The realization of **color diversity** is different from the paper. 
 > 3. The **GIST descriptors** was removed.
 > 4. The **GLCM - features** used only gray image and left only 4 features.
 
-## How to use ?
+## Installation
 
 ### Install requirements
 ```
@@ -42,8 +42,6 @@ new_res = ca.compute_ca()
 See [example](https://github.com/Justin900429/computational-aesthetics/blob/main/example.py) for more details
 
 ## Citation
-> Apology for not including all the citations. Below section only lists the paper mentioned in the introduction section. All the reference are included in the below paper.
-
 ```bibtex
 @ARTICLE{
   7378902,
