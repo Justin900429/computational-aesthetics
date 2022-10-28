@@ -1,7 +1,7 @@
 # README
 
 ## Introduction
-This repo is to extract the computational aesthetic features introduced from the paper - ["The Pictures we Like are our Image: Continuous Mapping of Favorite Pictures into Self-Assessed and Attributed Personality Traits"](https://ieeexplore.ieee.org/document/7378902). Some of the features had been removed and readapted. See the below table.
+This repo is to extract the computational aesthetic features introduced from the paper - ["The Pictures we Like are our Image: Continuous Mapping of Favorite Pictures into Self-Assessed and Attributed Personality Traits"](https://ieeexplore.ieee.org/document/7378902). Some of the features had been removed and readapted. See the table below.
 
 ## Feature Synopis
 | Category            | Name                                                                                                                      | dimension                                       |
